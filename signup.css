@@ -1,0 +1,86 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.parent_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 4, 61);
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 7px;
+    z-index: 11;
+}
+.parent_div a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+
+    
+}
+.parent_div a:hover{
+    color: rgb(96, 128, 231);
+}
+
+.parent_div header{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.parent_div header button{
+    
+    border: none;
+    background-color: rgb(5, 4, 61);
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    border: 3px solid  white;
+}
+
+.signup{
+    background-color:rgb(5, 4, 61);
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    margin-left: 500px;
+    padding: 10px;
+    margin-top: 100px;
+    height: 225px;   
+    color: white;
+}
+.signup label{
+    text-align: left;
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+}
+.signup input{
+    margin-bottom: 12px;
+    padding-bottom: 7px;
+}
+.signup button {
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.signup button{
+    border:3px solid white;
+    color: black
+
+}
+.signup button:hover{
+    color: rgb(119, 35, 35);
+}
+.fo{
+    background-color: rgb(5, 4, 61);
+    color: white;
+    padding-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 120px;
+    
+}

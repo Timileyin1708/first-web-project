@@ -1,0 +1,81 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.nvm{
+    display:flex ;
+    justify-content: space-between;
+    background-color: rgb(5, 4, 61);
+    color: white;
+    padding-right: 15px;
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+}
+.nvm header a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nvm header{
+    padding-top: 20px;
+}
+.nvm header button{
+    background-color: rgb(5, 4, 61);
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 2px;
+}
+.nvm header a:hover{
+    color:rgb(185, 30, 185) 
+}
+    
+
+.fo{
+    background-color: rgb(5, 4, 61);
+    color: white;
+    padding-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.div{
+    background-color: rgb(5, 4, 61);
+    margin-left: 450px;
+    margin-right: 450px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+
+}
+.div h1{
+    color: white;
+    padding-top: 8px ;
+}
+.div button{
+    margin-bottom: 10px;
+    border:1px solid white;
+    padding: 5px;
+    background-color: rgb(5, 4, 61);
+    color: white;
+    border-radius:3px ;
+    
+}
+div button:hover{
+    color: rgb(5, 4, 61); 
+}
+.contact-info{
+    text-align: center;
+    background-color: rgb(5, 4, 61); ;
+    color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
