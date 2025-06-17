@@ -28,8 +28,9 @@ body{
 }
 
 .edit header{
-    padding-top: 20px;
+    padding-top: 17px;
     padding-right: 10px;
+    
 }
 .edit header button{
     
@@ -77,30 +78,18 @@ body{
 }
 .services-container{
     display: flex; 
-    gap: 15px;
-    
+    gap: 5px;
+    margin-right: 10px;
 }
-.services-container .services {
+.services-container section{
     border: 2px solid black;
     border-radius: 7px;
     width: 30%;
     text-align: center;
     margin-left: 30px;
+    padding: 15px;
 }
-.services-container .why-choose-us{
-    border: 2px solid black;
-    border-radius: 7px;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 30%;
-    text-align: center;
-}
-.services-container .testimonials{
-    border: 2px solid black;
-    border-radius: 7px;
-    width: 30%;
-    text-align: center;
-}
+
 cite{
     color: rgb(5, 4, 61);
 }
@@ -110,15 +99,45 @@ cite{
 .fo{
     background-color: rgb(5, 4, 61);
     color: white;
-    padding-left: 450px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+      
+}
+@media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden !important;
+        font-size: small;
+    }
+    .about{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .parent_position{
+        margin: 0;
+    }
+    .services-container{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-left: 0;
+        align-items: center;
+        box-sizing: border-box;
+        overflow-x:hidden;
+        
+    }
+    .services-container section{
+        flex-grow: 4;
+        min-width: 80%;
+
+    }
+    .edit header{
+        padding: 5px;
+    }
 }
 .about h2{
     color: rgb(255, 68, 0);
 }
 .services-container h2{
     color: rgb(255, 68, 0);
-} 
+}
