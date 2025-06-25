@@ -89,6 +89,8 @@ form button:hover{
     body{
         overflow-x: hidden !important;
         font-size: small;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .edit{
         padding: 5px;
