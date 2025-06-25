@@ -4,78 +4,95 @@ body{
     margin-right: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
-.nvm{
-    display:flex ;
+.edit{
+    display: flex;
     justify-content: space-between;
     background-color: rgb(5, 4, 61);
     color: white;
-    padding-right: 15px;
-    padding-left: 10px;
     position: sticky;
     top: 0;
+    padding: 7px;
+    z-index: 11;
+    margin-bottom: 10px;
 }
-.nvm header a{
-    color: white;
+.edit a{
     text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+
     
 }
-.nvm header{
-    padding-top: 20px;
+.edit a:hover{
+    color: rgb(96, 128, 231);
 }
-.nvm header button{
+
+.edit header{
+    padding-top: 17px;
+    padding-right: 10px;
+    
+}
+.edit header button{
+    
+    border: none;
     background-color: rgb(5, 4, 61);
     color: white;
-    border: 1px solid white;
-    padding: 3px;
-    border-radius: 2px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 3px solid  white;
 }
-.nvm header a:hover{
-    color:rgb(185, 30, 185) 
+.div h1{
+    text-align: center;
+    color:rgb(5, 4, 61); 
 }
-    
+form{
+    background-color:rgb(5, 4, 61) ;
+    text-align: center;
+    width: 400px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+form button{
+    border: none;
+    background-color: rgb(5, 4, 61);
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    border: 3px solid  white;
 
+}
+form button:hover{
+    color:rgb(156, 154, 250);
+}
+.contact-info{
+    background-color:rgb(5, 4, 61) ;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
 .fo{
     background-color: rgb(5, 4, 61);
     color: white;
-    padding-left: 450px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+@media screen and (max-width:600px) {
+    body{
+        overflow-x: hidden !important;
+        font-size: small;
+    }
+    .edit{
+        padding: 5px;
+    }
     
 }
-.div{
-    background-color: rgb(5, 4, 61);
-    margin-left: 450px;
-    margin-right: 450px;
-    color: white;
-    text-align: center;
-    border-radius: 7px;
-
-}
-.div h1{
-    color: white;
-    padding-top: 8px ;
-}
-.div button{
-    margin-bottom: 10px;
-    border:1px solid white;
-    padding: 5px;
-    background-color: rgb(5, 4, 61);
-    color: white;
-    border-radius:3px ;
     
-}
-div button:hover{
-    color: rgb(5, 4, 61); 
-}
-.contact-info{
-    text-align: center;
-    background-color: rgb(5, 4, 61); ;
-    color: white;
-    margin-left: 450px;
-    margin-right: 450px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 7px;
-}

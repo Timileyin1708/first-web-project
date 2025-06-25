@@ -115,6 +115,7 @@ cite{
     }
     .parent_position{
         margin: 0;
+        margin-left: 20px;
     }
     .services-container{
         display: flex;
