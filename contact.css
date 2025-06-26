@@ -94,7 +94,7 @@ form button:hover{
     }
     .edit header{
         padding-top: 8px;
-        align-items: center;
+        font-size: small;
     }
     
 }
