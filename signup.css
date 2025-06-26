@@ -91,12 +91,15 @@ body{
         font-size: small;
     }
     .nvm header a{
-        /* padding: 5px; */
         padding: 5px;
+        
        
     }
     .signup{
         width: 300px;
+    }
+    .parent_div header{
+        padding-top: 8px;
     }
 
     

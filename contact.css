@@ -92,8 +92,8 @@ form button:hover{
         margin-left: 5px;
         margin-right: 5px;
     }
-    .edit{
-        padding: 5px;
+    .edit header{
+        padding-top: 8px;
     }
     
 }

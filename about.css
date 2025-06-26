@@ -115,5 +115,8 @@ body{
         flex-grow: 4;
         min-width: 80%;
     }
+    .nvm header{
+        padding-top: 8px;
+    }
     
 }
