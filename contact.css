@@ -13,12 +13,12 @@ body{
     top: 0;
     padding: 7px;
     z-index: 11;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 .edit a{
     text-decoration: none;
     color: white;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 
     
 }
@@ -95,7 +95,7 @@ form button:hover{
     .edit header{
         padding-top: 8px;
         font-size: small;
-        display: flex;
+        
     }
     
 }
