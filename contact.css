@@ -89,11 +89,12 @@ form button:hover{
     body{
         overflow-x: hidden !important;
         font-size: small;
-        margin-left: 5px;
-        margin-right: 5px;
+        /* margin-left: 5px;
+        margin-right: 5px; */
     }
     .edit header{
         padding-top: 8px;
+        align-items: center;
     }
     
 }
